@@ -23,7 +23,7 @@ h1 {
 .content-block {
   display: block;
   position: relative;
-  border: 2px solid #000;
+  border: 1px solid #000;
   background-color: #999999;
 }
 .content {
@@ -41,8 +41,8 @@ h1 {
   color: #fff;
   font-weight: bold;
   padding: 5px 30px;
-  border-left: 2px solid #000;
-  border-bottom: 2px solid #000;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 #chicken span {
   background-color: #d59898;
