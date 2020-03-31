@@ -11,18 +11,7 @@ body {
 }
 h1 {
   margin: 1em 0 2em 0;
-  font-size: 1.75em;
   text-align: center;
-}
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
 }
 
 /* Simple Responsive Framework. */
@@ -35,11 +24,12 @@ p {
   display: block;
   position: relative;
   border: 2px solid #000;
-  background-color: #e4fff93d;
+  background-color: #999999;
 }
 .content {
   display: block;
   padding: 10px;
+  font-size: 20px;
 }
 .title {
   display: block;
@@ -55,13 +45,14 @@ p {
   border-bottom: 2px solid #000;
 }
 #chicken span {
-  background-color: #A52A2A;
+  background-color: #d59898;
 }
 #beef span{
-  background-color: #1771F1;
+  background: #c14543;
+  color: white;
 }
 #sushi span{
-  background-color: #00CF91;
+  background: #e5d198;
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
