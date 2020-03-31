@@ -72,6 +72,11 @@ body {
 .back {
   text-decoration: underline;
   color: #F1F2F2;
+  transition: color .3s ease;
+  cursor: pointer;
+}
+.back:hover {
+  color: #000;
 }
 .navbar-header button.navbar-toggle.collapsed .icon-bar,
 .navbar-default .navbar-toggle.collapsed {
