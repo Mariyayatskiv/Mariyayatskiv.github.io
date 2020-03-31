@@ -12,7 +12,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #61122f;
+  background-color: #8EAF0C;
   border-radius: 0;
   border: 0;
 }
@@ -46,7 +46,7 @@ body {
   margin-bottom: 20px;
 }
 .content {
-  background-color: #61122f;
+  background-color: #8EAF0C;
   padding: 10px 20px;
   min-height: 700px;
 }
@@ -54,9 +54,10 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 20px;
+  color: #F1F2F2;
 }
 .navbar-brand h1 { 
-  color: #000;
+  color: #F1F2F2;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -70,6 +71,7 @@ body {
 }
 .back {
   text-decoration: underline;
+  color: #F1F2F2;
 }
 .navbar-header button.navbar-toggle.collapsed .icon-bar,
 .navbar-default .navbar-toggle.collapsed {
